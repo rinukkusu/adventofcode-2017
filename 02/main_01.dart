@@ -1,7 +1,7 @@
 import 'dart:io';
 
 void main() {
-  var sum = new File('data')
+  var sum = new File('data_01')
       .readAsLinesSync()
       .map((x) => x
           .split(new RegExp(r'\s'))
